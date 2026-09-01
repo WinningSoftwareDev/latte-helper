@@ -1,5 +1,5 @@
 services:
-  CloudBase\LatteHelper\Classes\Latte\LatteEngineFactory:
+  LatteHelper\Classes\Latte\LatteEngineFactory:
     arguments:
       $container: '@service_container'
       $projectDir: '%kernel.project_dir%'

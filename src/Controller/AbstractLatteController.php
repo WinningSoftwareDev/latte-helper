@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace CloudBase\LatteHelper\Controller;
+namespace LatteHelper\Controller;
 
-use CloudBase\LatteHelper\Classes\Latte\Trait\LatteFactoryTrait;
-use CloudBase\LatteHelper\Classes\LatteAwareApplication;
-use CloudBase\LatteHelper\Classes\LatteAwareApplicationBuilder;
+use LatteHelper\Classes\Latte\Trait\LatteFactoryTrait;
+use LatteHelper\Classes\LatteAwareApplication;
+use LatteHelper\Classes\LatteAwareApplicationBuilder;
 use Psr\Container\ContainerExceptionInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;

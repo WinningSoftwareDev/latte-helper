@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace CloudBase\LatteHelper\Tests\UnitTests;
+namespace LatteHelper\Tests\UnitTests;
 
-use CloudBase\LatteHelper\Classes\LatteAwareApplicationBuilder;
+use LatteHelper\Classes\LatteAwareApplicationBuilder;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use Psr\Container\ContainerInterface;

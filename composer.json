@@ -1,25 +1,24 @@
 {
-  "name": "cloudbase/latte-helper",
+  "name": "winningsoftware/latte-helper",
   "description": "An unofficial helper package for rendering Latte templates in Symfony applications.",
   "autoload": {
     "psr-4": {
-      "CloudBase\\LatteHelper\\": "src/"
+      "LatteHelper\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "CloudBase\\LatteHelper\\Tests\\": "tests/"
+      "LatteHelper\\Tests\\": "tests/"
     }
   },
   "require": {
     "php": "^8.3",
     "latte/latte": "^3.0",
-    "symfony/http-foundation": "^7.3",
-    "symfony/framework-bundle": "^7.3",
-    "symfony/security-bundle": "^7.3"
+    "symfony/http-foundation": "^8.1",
+    "symfony/framework-bundle": "^8.1",
+    "symfony/security-bundle": "^8.1"
   },
   "require-dev": {
-    "loomsoftware/badger": "^1.0",
     "phpunit/phpunit": "^12.4",
     "phpstan/phpstan": "^2.1",
     "friendsofphp/php-cs-fixer": "^3.89"
@@ -28,9 +27,7 @@
     "stan": "./vendor/bin/phpstan analyse --no-progress -c phpstan.neon",
     "unit": "php -d memory_limit=1G ./vendor/bin/phpunit --testdox --colors=always --coverage-text --coverage-clover=coverage.xml",
     "test": "php -d xdebug.mode=coverage ./vendor/bin/phpunit --testdox --colors=always --coverage-html coverage --coverage-clover coverage/coverage.xml --testdox-html coverage/testdox.html && composer badge",
-    "badge": "./vendor/bin/badger badge:version . && ./vendor/bin/badger badge:license . && ./vendor/bin/badger badge:coverage .",
     "cs": "./vendor/bin/php-cs-fixer fix --dry-run --diff --allow-risky=yes"
   },
-  "version": "1.2.0",
   "license": "GPL-3.0-or-later"
 }

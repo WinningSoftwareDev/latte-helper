@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CloudBase\LatteHelper\Classes;
+namespace LatteHelper\Classes;
 
 use Psr\Container\ContainerExceptionInterface;
 use Psr\Container\ContainerInterface;

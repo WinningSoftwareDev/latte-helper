@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace CloudBase\LatteHelper\Tests\UnitTests\Controller;
+namespace LatteHelper\Tests\UnitTests\Controller;
 
-use CloudBase\LatteHelper\Classes\Latte\LatteEngineFactory;
-use CloudBase\LatteHelper\Tests\TestController;
+use LatteHelper\Classes\Latte\LatteEngineFactory;
+use LatteHelper\Tests\TestController;
 use PHPUnit\Framework\MockObject\MockObject;
 use PHPUnit\Framework\TestCase;
 use Psr\Container\ContainerInterface;

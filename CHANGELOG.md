@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.0] - 2026-09-01
+### Changed
+- Changed vendor name to `winningsoftware`.
+- Increased Symfony version requirements.
+
+### Removed
+- Removed all `CloudBase` references, including namespaces.
+
 ## [1.2.0] - 2025-11-18
 ### Added
 - Added `generateUrl` method to `LatteAwareApplication`.

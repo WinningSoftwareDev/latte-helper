@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace CloudBase\LatteHelper\Tests;
+namespace LatteHelper\Tests;
 
-use CloudBase\LatteHelper\Controller\AbstractLatteController;
+use LatteHelper\Controller\AbstractLatteController;
 use Psr\Container\ContainerInterface;
 use Symfony\Component\HttpFoundation\Response;
 

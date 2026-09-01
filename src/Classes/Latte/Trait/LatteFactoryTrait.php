@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace CloudBase\LatteHelper\Classes\Latte\Trait;
+namespace LatteHelper\Classes\Latte\Trait;
 
-use CloudBase\LatteHelper\Classes\Latte\LatteEngineFactory;
+use LatteHelper\Classes\Latte\LatteEngineFactory;
 use Latte\Engine;
 use Psr\Container\ContainerExceptionInterface;
 use Psr\Container\NotFoundExceptionInterface;

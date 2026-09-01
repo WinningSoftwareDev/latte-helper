@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CloudBase\LatteHelper\Classes\Latte;
+namespace LatteHelper\Classes\Latte;
 
 use Latte\Engine;
 use Latte\Extension;

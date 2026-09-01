@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace CloudBase\LatteHelper\Classes;
+namespace LatteHelper\Classes;
 
 use Symfony\Component\HttpFoundation\RequestStack;
 use Symfony\Component\HttpFoundation\Session\Session;

@@ -13,14 +13,14 @@ An unofficial helper package for rendering Latte templates in Symfony applicatio
 
 ## 🚀 Installation
 ```bash
-composer require cloudbase/latte-helper
+composer require winningsoftware/latte-helper
 ```
 
 Then add the following to the imports section in your `config/services.yaml`:
 
 ```yaml
 imports:
-  - { resource: '../vendor/cloudbase/latte-helper/config/services.yaml' }
+  - { resource: '../vendor/winningsoftware/latte-helper/config/services.yaml' }
 ```
 
 You'll also need to add some configuration for your Latte controllers:
@@ -33,12 +33,13 @@ services:
     calls:
       - method: setLatteFactory
         arguments:
-          - '@CloudBase\LatteHelper\Classes\Latte\LatteEngineFactory'
+          - '@LatteHelper\Classes\Latte\LatteEngineFactory'
 ```
 
 > You don't need to add this for every single controller, this is just a reference to the directory where your 
 > controllers are stored. Add this definition for each directory containing Latte controllers. This does however mean that
 > **every** controller inside that directory is expected to be an extension of `AbstractLatteController` controller.
+> You can of course just map individual controllers instead if required.
 
 ## 🧩 Usage
 
@@ -94,7 +95,7 @@ Every template automatically receives an `$app` variable - an instance of `Latte
 This provides access to _some_ common Symfony features (similar to the `app` variable in Twig):
 
 ```latte
-{varType CloudBase\LatteHelper\Classes\LatteAwareApplication $app}
+{varType LatteHelper\Classes\LatteAwareApplication $app}
 
 <div n:foreach="$app->getFlashes('error') as $error" class="p-4 text-red-500 border-l-2 border-red-500">
     {$error}
