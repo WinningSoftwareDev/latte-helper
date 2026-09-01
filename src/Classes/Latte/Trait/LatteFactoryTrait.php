@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace LatteHelper\Classes\Latte\Trait;
 
-use LatteHelper\Classes\Latte\LatteEngineFactory;
 use Latte\Engine;
+use LatteHelper\Classes\Latte\LatteEngineFactory;
 use Psr\Container\ContainerExceptionInterface;
 use Psr\Container\NotFoundExceptionInterface;
 
