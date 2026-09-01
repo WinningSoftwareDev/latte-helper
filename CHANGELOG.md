@@ -10,6 +10,10 @@ All notable changes to this project will be documented in this file.
 ### Removed
 - Removed all `CloudBase` references, including namespaces.
 
+## [1.2.1] - 2026-05-21
+### Changed
+- Updated required Symfony packages.
+
 ## [1.2.0] - 2025-11-18
 ### Added
 - Added `generateUrl` method to `LatteAwareApplication`.

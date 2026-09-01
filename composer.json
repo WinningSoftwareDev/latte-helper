@@ -14,9 +14,15 @@
   "require": {
     "php": "^8.3",
     "latte/latte": "^3.0",
+<<<<<<< HEAD
     "symfony/http-foundation": "^8.1",
     "symfony/framework-bundle": "^8.1",
     "symfony/security-bundle": "^8.1"
+=======
+    "symfony/http-foundation": "^8.0",
+    "symfony/framework-bundle": "^8.0",
+    "symfony/security-bundle": "^8.0"
+>>>>>>> origin/main
   },
   "require-dev": {
     "phpunit/phpunit": "^12.4",
@@ -29,5 +35,9 @@
     "test": "php -d xdebug.mode=coverage ./vendor/bin/phpunit --testdox --colors=always --coverage-html coverage --coverage-clover coverage/coverage.xml --testdox-html coverage/testdox.html && composer badge",
     "cs": "./vendor/bin/php-cs-fixer fix --dry-run --diff --allow-risky=yes"
   },
+<<<<<<< HEAD
+=======
+  "version": "1.2.1",
+>>>>>>> origin/main
   "license": "GPL-3.0-or-later"
 }
